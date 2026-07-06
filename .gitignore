@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Data (participant results stay local / in Streamlit cloud storage)
+data/results/*.db
+data/results/*.csv
+!data/results/.gitkeep
+
+# Env & secrets
+.env
+.streamlit/secrets.toml
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Tooling
+.atl/
