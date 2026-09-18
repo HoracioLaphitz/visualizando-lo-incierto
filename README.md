@@ -2,7 +2,8 @@
 
 ## Descripción
 
-**Semiótica y Cognición de la Probabilidad en la Era Algorítmica**
+Plataforma experimental en Streamlit que compara fórmulas y diagramas de probabilidad mediante un estudio de medidas repetidas. Registra respuestas y tiempos de forma anónima para analizar carga cognitiva y comprensión.
+
 
 ## Demo
 
