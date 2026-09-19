@@ -1,10 +1,9 @@
 # Visualizando lo Incierto
 
-**Semiótica y Cognición de la Probabilidad en la Era Algorítmica**
+## Descripción
 
-Plataforma experimental que mide si los diagramas de probabilidad (Venn, árbol) reducen la carga cognitiva frente a las fórmulas algebraicas. Estudio cuasi-experimental de medidas repetidas: cada participante resuelve las mismas 10 preguntas en dos condiciones — solo fórmulas (A) y solo diagramas (B) — mientras la plataforma registra latencia y exactitud.
+Plataforma experimental en Streamlit que compara fórmulas y diagramas de probabilidad mediante un estudio de medidas repetidas. Registra respuestas y tiempos de forma anónima para analizar carga cognitiva y comprensión.
 
-Marco teórico: semiótica de Peirce (ícono/índice/símbolo), leyes de la Gestalt, teoría de la imagen técnica (Flusser) y teoría de la carga cognitiva (Sweller).
 
 ## Demo
 
@@ -49,3 +48,17 @@ Genera 20 PNG (10 preguntas × variante baseline/optimizada) desde `data/questio
 ## Licencia
 
 Proyecto de investigación de Horacio Laphitz. Los datos de participantes son anónimos y se publican solo en forma agregada.
+
+## Diagrama
+
+[Explorar la arquitectura interactiva en GitDiagram](https://gitdiagram.com/HoracioLaphitz/visualizando-lo-incierto)
+
+```mermaid
+flowchart LR
+  A[".gitignore + .streamlit + CLAUDE.md"] --> B["Procesamiento de visualizando-lo-incierto"]
+  B --> C["Resultados del proyecto"]
+```
+
+## Tecnologías
+
+- Streamlit
